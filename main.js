@@ -37,7 +37,7 @@ yargs.command({
 
 const validaUsuario = function(nombre, tiempo,sueldo){
     console.log(color.blue("-----------------------------------------------------------"))
-    console.log(color.blue("|")+color.yellow("          Tabla de Jubilación de Militares      "))
+    console.log(color.blue("|")+color.yellow("          Tabla de Jubilación de Militares       "))
     console.log(color.blue("|        Nombre             : "+ nombre));
     console.log(color.blue("|        Tiempo de servicio : "+ tiempo));
     console.log(color.blue("|        Sueldo mensual     : "+ sueldo));
