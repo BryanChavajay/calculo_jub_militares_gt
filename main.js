@@ -1,4 +1,4 @@
-//Empecé aquí
+
 const yargs = require('yargs');
 
 const color = require('colors');
@@ -72,3 +72,4 @@ const validaUsuario = function(nombre, tiempo,sueldo){
     console.log(color.blue("-----------------------------------------------------------"))
 }
 yargs.parse()
+
