@@ -21,7 +21,7 @@ Una vez dentro del directorio o carpeta del proyecto ejecute en la consola:
 
 Si necesita ayuda o consultar sobre el programa ejecute: 
 
-** node main --help **
+**node main --help**
 
 **NOTAS:**
 
