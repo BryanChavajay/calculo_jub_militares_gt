@@ -19,6 +19,10 @@ Una vez dentro del directorio o carpeta del proyecto ejecute en la consola:
 
 **node main insertar --nombre="Nombre del jubilado" --tiempo=x --sueldo=x**
 
+Si necesita ayuda o consultar sobre el programa ejecute: 
+
+** node main --help **
+
 **NOTAS:**
 
 - Tiempo y sueldo solo aceptan numeros, ejemplo: --tiempo=23 --sueldo=3000
