@@ -129,14 +129,12 @@ const calcular = function (nombre, tiempo, sueldo) {
       jubilacion = sueldo;
       break;
     default:
-      return () => {
-        console.log(
-          color.blue("|") +
-            color.bgRed(
-              " El dato que ingreso no se encuentra en el listado legal"
-            )
-        );
-      };
+      return console.log(
+        color.blue("|") +
+          color.bgRed(
+            " El dato que ingreso no se encuentra en el listado legal"
+          )
+      );
   }
   console.log(
     color.blue("-----------------------------------------------------------")
